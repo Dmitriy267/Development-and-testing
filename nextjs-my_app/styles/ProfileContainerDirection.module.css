@@ -1,0 +1,30 @@
+.profile-container__direction{
+        display: flex;
+        flex-direction: row;
+    width: 314px;
+    justify-content: space-between;
+        
+    }
+
+.profile-container__direction p{
+        display: flex;
+        font-size: 16px;
+        margin: 0px;
+        
+    }
+	
+	@media screen and (max-width: 375px) {
+		.profile-container__direction{
+        display: flex;
+        flex-direction: column;
+        height: 42px;
+        
+    }
+    
+    .profile-container__direction p{
+        display: flex;
+        font-size: 14px;
+        margin: 0px;
+        
+    }
+	}

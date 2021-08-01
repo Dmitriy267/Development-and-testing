@@ -1,0 +1,25 @@
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px; }
+
+.logo {
+  margin-top: 31px;
+  height: 28px;
+  width: 115px;
+  margin-left: 40px; }
+  
+  @media screen and (max-width: 375px) {
+	.logo {
+    margin-top: 20px;
+    margin-left: 20px; }
+  
+	.heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+		 width: 375px;
+    }
+	
+}

@@ -1,0 +1,10 @@
+.navigation {
+  display: flex; 
+   padding-right: 40px;
+}
+
+
+@media screen and (max-width: 375px) {
+	.navigation {
+    display: none; }
+}

@@ -1,0 +1,115 @@
+.profileContact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        
+    }
+
+.profileContainer{
+        margin: 0px 381px 0px 381px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F7F9FB;
+        border-radius: 10px;
+        width:678px;
+        padding-left: 31px;
+        padding-top: 40px;
+    }
+
+.profileContainer__columnInfo{
+        display: flex;
+        width: 341px;
+        justify-content: space-between;
+        
+    }
+	.profileContainer__columnInfo img{
+        width: 18px;
+        height: 18px;
+    }
+	
+	.profileContainer__password{
+    display: flex;
+    width: 308px;
+    justify-content: space-between;
+    margin-top: 23px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.profileContainer__textPassword{
+        font-size: 16px;
+        color:#828282;
+        display: flex;
+    margin: 0px;
+   
+    }
+.profileContainer__btnPassword{
+        border: none;
+        color:#828282;
+        margin-top: 0px;
+        display: flex;
+        padding: 0px;
+        background-color: #F7F9FB;
+    }
+.profileContainer p:nth-of-type(2){
+        margin-bottom: 23px;
+    }
+
+	@media screen and (max-width: 375px) {
+		.profileContact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        
+    }
+    .profileContainer{
+        margin: 0px 20px 0px 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F7F9FB;
+        border-radius: 10px;
+        width:335px;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    
+    .profileContainer__columnInfo{
+        display: flex;
+        width: 295px;
+        justify-content: space-between;
+        
+    }
+	.profileContainer__columnInfo img{
+        width: 24px;
+        height: 24px;
+    }
+	.profileContainer__password{
+    display: flex;
+   flex-direction: column;
+        margin-top: 15px;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    
+}
+    
+    .profileContainer__textPassword{
+        font-size: 14px;
+        color:#828282;
+        display: flex;
+        margin-top: 15px;
+        margin-bottom: 2px;
+    }
+    
+    .profileContainer__btnPassword{
+        border: none;
+        color:#828282;
+        width: 66px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: flex;
+        padding: 0px;
+        background-color: #F7F9FB;
+    }
+    .profileContainer p:nth-of-type(2){
+        margin-bottom: 15px;
+    }
+	}
