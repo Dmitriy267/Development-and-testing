@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Rubik',  sans-serif;
+  width: 504px;
+  margin: 0 auto; }
+
+div {
+  box-sizing: border-box; }
+
+p {
+  font-family: Roboto, sans-serif; }
+.recovery-header{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 17px;
+}
+.recovery-header button{
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    padding: 0px;
+    border: 0px;
+}
+
+.btn-cloze__cross_little{
+    width: 14px;
+    height: 14px;
+}
+.btn-arrow__images-arrow_left{
+   width: 15.48px;
+    height: 15.48px;  
+}
+.recovery-section{
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recovery-form{
+      display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+    align-items: center;
+}
+
+.recovery-form legend{
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.2;
+}
+.recovery-form p{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    width: 333px;
+    height: 32px;
+    text-align: center;
+}
+
+.recovery-form input{
+    width: 350px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+
+.recovery-form__btn-enter{
+      width: 161px;
+    height: 51px;
+    background-color: #E6E6E6;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #B4B5BD;
+    margin-bottom: 51px;
+}
+
+.recovery-footer{
+    display: flex;
+    flex-direction: column;
+}

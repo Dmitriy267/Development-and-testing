@@ -1,0 +1,36 @@
+.registration-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+.registration-section__picture{
+        width: 456px;
+        height: 338px;
+        margin-left: 492px;
+        margin-top: 104px;
+        margin-bottom: 51px;
+    }
+
+ .registration-section__title_last{
+        width:944px;
+        height: 58px;
+        margin-left: 248px;
+        margin-bottom: 40px;
+     margin-top: 0px;
+     padding-top: 0px;
+    }
+
+
+.registration-section__btn_last{
+      margin-bottom: 120px;
+    margin-left: 602px;
+     height: 51px;
+        width: 237px;
+        background-color: #61A199;
+        border-radius: 6px;
+        color: white;
+        font-size: 16px;
+        font-family: 'Roboto',sans-serif;
+    
+}

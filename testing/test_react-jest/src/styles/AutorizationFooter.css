@@ -1,0 +1,21 @@
+hr{
+    width: 350px;
+    height: 1px;
+    background-color: #DEDBF1;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border: 0px;
+}
+.autorization-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.autorization-footer p{
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 34px;
+    font-size: 14px;
+    color: #508E87;
+}

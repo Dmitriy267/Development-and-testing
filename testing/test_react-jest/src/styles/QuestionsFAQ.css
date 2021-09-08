@@ -1,0 +1,10 @@
+#Qustions_FAQ {
+  min-height: 690px;
+  display: flex;
+  flex-direction: column; }
+@media screen and (max-width: 375px) {
+     #Qustions_FAQ {
+    display: flex;
+    min-height: 599px;
+    flex-direction: column; }
+}

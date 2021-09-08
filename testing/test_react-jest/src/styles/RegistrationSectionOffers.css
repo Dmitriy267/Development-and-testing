@@ -1,0 +1,60 @@
+.registration-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+.registration-section__name-question{
+       margin-left: 448px;
+        text-align: center;
+        width: 545px;
+        height: 58px;
+    margin-top: 0px;
+    padding-top: 110px;
+    }
+
+
+.registration-section__name-question + p{
+        margin-left: 331px;
+        margin-top: 21px;
+    margin-bottom: 0px;
+        width: 778px;
+        height: 35px;
+    font-size: 24px;
+    line-height: 1.47;      
+    }
+
+
+.registration-section-offers {
+        display: flex;
+         flex-direction: row;
+    margin-top: 80px;
+    margin-left: 278px;
+    width: 879px;
+    }
+
+  .registration-section-change{
+        display: flex;
+        flex-direction: column;
+      align-items: center;
+      height: 204px;
+      justify-content: space-between;
+    }
+.registration-section-change >p{
+      text-align: center;
+    margin-top: 26px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    height: 70px;
+    }
+
+.registration-section-change__mark{
+        width: 108px;
+        height: 108px;
+    }
+
+.dash{
+        border: 1px dashed #9D9AAC;
+        height: 0px;
+        width: 241px;
+     margin: 55px 0px 0px 0px;
+    }

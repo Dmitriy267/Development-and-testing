@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  width: 1440px;
+  margin: 0 auto; }
+
+div {
+  box-sizing: border-box; }
+h1 {
+  text-align: center;
+  color: #1B1B1B;
+  font-size: 64px;
+  line-height: 1.2;
+  font-weight: bold; }
+h2 {
+  text-align: center;
+  color: #1B1B1B;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 500;
+  padding-top: 80px; }
+h1, h2, p {
+  font-family: Roboto, sans-serif; }

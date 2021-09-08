@@ -1,0 +1,35 @@
+.block-image {
+  height: 261px; }
+  .block-image p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    line-height: 1.47;
+    margin: 23px 0px 0px 0px; }
+  .block-image .job_text {
+    font-size: 14px;
+    font-weight: normal;
+    color: #828282;
+    text-align: center;
+    line-height: 1.47;
+    margin: 8px 0px 0px 0px; }
+
+@media screen and (max-width: 375px) {
+    .block-image > img {
+    max-height: 80px;
+    max-width: 80px; }
+  .block-image {
+    height: 120px;
+    text-align: center; }
+    .block-image p {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 15px 0px 0px 0px; }
+    .block-image .job_text {
+      margin: 1px 0px 0px 0px; }
+     .mobile-top_block {
+    display: flex;
+    width: 247px;
+    justify-content: space-between; }
+}

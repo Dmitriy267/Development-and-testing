@@ -1,0 +1,33 @@
+.logo {
+  margin-top: 31px;
+  height: 28px;
+  width: 115px;
+  margin-left: 40px; }
+
+.vector-menu {
+  display: none; }
+
+.navigation {
+  display: flex; }
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px; }
+
+@media screen and (max-width: 375px) {
+     .heading {
+    width: 375px; }
+  .navigation {
+    display: none; }
+    .vector-menu {
+    display: flex;
+    width: 18px;
+    height: 12px;
+    margin-top: 28px;
+    margin-right: 23px; }
+    .logo {
+    margin-top: 20px;
+    margin-left: 20px; }
+    
+}

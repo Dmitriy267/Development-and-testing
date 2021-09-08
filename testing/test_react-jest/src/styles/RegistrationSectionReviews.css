@@ -1,0 +1,123 @@
+.registration-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+#reviews{
+        height: 599px;
+        background-color:#F7F9FB;
+        margin-top: 110px;
+
+    }
+    #reviews>h2{
+        margin-left: 515px;
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 110px;
+        font-size: 48px;
+        line-height: 1.2;
+        width: 411px;
+        height: 58px;
+        margin-bottom: 0px;
+    }
+
+ .container-reviews{
+        width: 678px;
+        height: 233px;
+        margin-top: 58px;
+        margin-left: 381px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+
+.info-client{
+        display: flex;
+        flex-direction: row;
+      margin-top: 30px;
+      margin-left: 25px;
+    width: 184px;
+    }
+.info-client-name{
+    display: flex;
+    flex-direction: column;
+      margin-left: 20px;
+    height: 48px;
+    width: 111px;
+}
+ .info-client__name_bold{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.47px;
+     width: 120px;
+     height: 27px;
+          display: flex;
+     margin-top: 0px;
+     margin-bottom: 0px;
+    }
+
+.info-client__name_bold +p{
+        font-size: 14px;
+    color: #636780;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+.info-client__reviews{
+        margin-top: 18px;
+        margin-left: 98px;
+        margin-bottom: 39px;
+        font-size: 16px;
+        line-height: 1.47;
+        width: 505px;
+        height: 96px;
+        
+    }
+
+#reviews > img{
+    width: 48px;
+    height: 48px;
+    
+}
+.registration-section__chevron_left{
+   left: 209px;
+  top: 3687px;
+    position: absolute;
+}
+
+.registration-section__chevron_right{
+   left: 1185px;
+  top: 3687px;
+    position: absolute;
+}
+.group-circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 58px;
+    height: 10px;
+    margin-left: 691px;
+    margin-top: 40px;
+}
+.circle_dark{
+  width: 10px;
+    height: 10px;
+    background-color: #3F3D56;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+
+}
+.circle{
+  width: 6px;
+    height: 6px;
+    background-color: #3F3D56;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+    opacity: 0.4;
+
+}

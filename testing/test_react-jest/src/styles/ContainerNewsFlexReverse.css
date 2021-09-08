@@ -1,0 +1,30 @@
+.container-news__flex-reverse{
+     display: flex;
+    flex-direction: column;
+    height: 218px;
+    width: 413px;
+}
+
+div.container-news__flex-reverse h2 {
+        text-align: left;
+        width: 329px;
+      height: 116px;
+        margin-left: 0px;
+        padding: 0px;
+        margin-top: 0px;
+        line-height: 1.2;
+    font-size: 48px;
+      margin-bottom: 0px;    
+    }
+
+div.container-news__flex-reverse p{
+         text-align: left;
+        width: 413px;
+    height: 82px;
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 1.47;
+        margin-bottom: 0px;
+        
+    }

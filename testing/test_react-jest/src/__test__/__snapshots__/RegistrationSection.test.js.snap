@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationSection component should renders correctly 1`] = `
+<section
+  className="registration-section"
+>
+  <img
+    alt="Рисунок главной страницы по каршерингу"
+    className="registration-section__images_size"
+    src="test-file-stub"
+  />
+  <h1
+    className="registration-section__title"
+  >
+    Каршеринг в любой точке России
+  </h1>
+  <p
+    className="registration-section__text"
+  >
+    Будьте всегда за рулём во время путешествий и командировок.
+  </p>
+  <button
+    className="registration-btn"
+  >
+    Зарегистрироваться
+  </button>
+</section>
+`;

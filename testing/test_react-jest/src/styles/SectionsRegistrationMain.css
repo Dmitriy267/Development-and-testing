@@ -1,0 +1,39 @@
+.page-registration_main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 379px;
+    margin-top: 193px;
+    width: 676px;
+    height: 1315px;
+}
+.page-registration_main>h1{
+    margin-left: 53px;
+    margin-top: 0px;
+    margin-bottom: 52px;
+}
+legend{
+    font-size: 36px;
+    text-align: left;
+    line-height: 1.47;
+    font-weight: normal;
+    margin-bottom: 30px;
+} 
+label{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+form{
+    width: 676px;
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 676px;
+    margin-bottom: 20px;
+}
+

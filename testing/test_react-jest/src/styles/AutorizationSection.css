@@ -1,0 +1,49 @@
+.autorization-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.autorization-section img{
+    margin-left: 101px;
+    margin-top: 23px;
+}
+
+.autorization-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    align-items: center;
+}
+
+.autorization-form legend{
+    margin-bottom: 43px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.autorization-form input{
+display: flex;
+    height: 44px;
+    width: 350px;
+}
+input:nth-of-type(2){
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.autorization-form__link-recovery{
+   font-size: 14px;
+    color: #508E87;
+    position: relative;
+ left: 145px;
+    top:-60px;
+}
+
+.autorization-form__btn-enter{
+    width: 126px;
+    height: 51px;
+    background-color: #E5E7F0;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #B4B5BD;
+}

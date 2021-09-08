@@ -1,0 +1,33 @@
+.about-faq {
+  margin-top: 60.94px;
+  margin-bottom: 0px; }
+.vector-image-faq {
+  margin-left: 540px;
+  width: 360px;
+  height: 300.06px; }
+.textF {
+  width: 632px;
+  height: 35px;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: 408px;
+  margin-bottom: 60px; }
+@media screen and (max-width: 375px) {
+    .vector-image-faq {
+    margin-top: 60px;
+    margin-left: 67px;
+    width: 242px;
+    height: 202px; }
+    .textF {
+    width: 335px;
+    height: 48px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 1.45;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 30px; }
+    .about-faq {
+    margin-top: 40px; }
+}

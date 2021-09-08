@@ -1,0 +1,13 @@
+.not_js {
+  display: flex;
+  width: 1026px;
+  flex-direction: column;
+  margin-left: 207px; }
+@media screen and (max-width: 375px) {
+.not_js {
+    display: flex;
+    width: 335px;
+    flex-direction: column;
+    margin-left: 20px; }
+
+}

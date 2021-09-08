@@ -1,0 +1,53 @@
+.collapsible {
+  width: 1026px;
+  border-radius: 6px;
+  font-size: 20px;
+  padding-left: 22px;
+  margin-left: 207px;
+  height: 66px;
+  text-align: left;
+  font-family: Roboto, sans-serif; }
+  .collapsible img {
+    float: right;
+    width: 32px; }
+.off {
+  display: none; }
+
+.collapsible:nth-of-type(-n+5) {
+  margin-bottom: 14px; }
+.collapsible:hover {
+  background-color: rgba(97, 161, 153, 0.15); }
+.active, .collapsible:hover {
+  background-color: rgba(97, 161, 153, 0.15); }
+
+@media screen and (max-width: 375px) {
+    .collapsible {
+    background-color: #F7F7F8;
+    color: #1B1B1B;
+    cursor: pointer;
+    width: 335px;
+    border-radius: 6px;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-left: 20px;
+    height: 70px;
+    font-family: Roboto, sans-serif; }
+    .collapsible img {
+      float: right;
+      width: 26px; }
+  .collapsible:nth-of-type(-n+5) {
+    margin-bottom: 15px; }
+  .collapsible:nth-of-type(1) {
+    height: 50px; }
+  .collapsible:nth-of-type(3) {
+    height: 50px; }
+  .collapsible:nth-of-type(6) {
+    height: 50px; }
+    collapsible:hover {
+    background-color: rgba(97, 161, 153, 0.15); }
+  .off {
+    display: none; }
+    .active, .collapsible:hover {
+    background-color: rgba(97, 161, 153, 0.15); }
+}

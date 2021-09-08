@@ -1,0 +1,72 @@
+.registration-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+ .section-color{
+        background-color: #F7F9FB;
+        height: 552px;
+     margin-top: 160.43px;
+}
+
+.section-color >h2{
+       margin-bottom: 80px;
+    margin-top: 0px;
+    padding-top: 100px;
+    }
+.registration-section-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 317px;
+}
+ 
+.registration-section__rent-container{
+        display: flex;
+        flex-direction: column;
+        width: 137px;
+    align-items: center;
+    }
+  
+.registration-section__rent-container_num {
+        width: 106px;
+            height: 106px;
+        border: 1px solid #61A199;
+        margin: 0px;
+        color: #fff;
+        background-color: #61A199;
+        border-radius: 50%;
+        font-size: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ 
+            
+    }
+
+.registration-section__rent-container_text-condition{
+        font-size: 24px;
+     text-align: center;
+        line-height: 1.47;
+      width: 137px;
+        height: 70px;
+     margin-top: 26px;
+    }
+
+.registration-section__rent-container_reservation{
+    width: 158px;
+        height: 70px;
+    font-size: 24px;
+     text-align: center;
+        line-height: 1.47;
+    
+    
+}
+
+
+ .dash{
+        border: 1px dashed #9D9AAC;
+        height: 0px;
+        width: 241px;
+     margin: 55px 0px 0px 0px;
+    }

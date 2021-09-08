@@ -1,0 +1,66 @@
+#contacts {
+  background-color: #F7F9FB;
+  height: 341px;
+  margin-top: 80px;
+  width: 1440px; }
+
+.info {
+  height: 56px;
+  width: 264px;
+  display: flex;
+  flex-direction: column; }
+  .info p {
+    font-size: 14px;
+    color: #4F4F4F;
+    text-align: center;
+    line-height: 1.47;
+    margin: 0px 0px 6px 0px; }
+  .info a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: #000;
+    line-height: 1.47; }
+    .info a:hover {
+      color: #00CC00; }
+
+.line {
+  border-style: solid;
+  border-color: #C8C8CF;
+  border-width: 1px;
+  height: 62px; }
+
+.info_contacts {
+  margin-top: 43px;
+  display: flex;
+  justify-content: space-between;
+  width: 666px;
+  margin-left: 387px; }
+@media screen and (max-width: 375px) {
+   #contacts {
+    height: 237px;
+    margin-top: 40px;
+    width: 375px; }
+    
+    .info_contacts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    height: 108px;
+    margin-left: 56px; }
+  .info {
+    height: 18px;
+    width: 264px; }
+    .info p {
+      font-size: 12px;
+      margin: 0px 0px 5px 0px; }
+    .info a {
+      text-decoration: none;
+      font-size: 14px; }
+      .info a:hover {
+        color: #00CC00; }
+    .line {
+    display: none; }
+}
